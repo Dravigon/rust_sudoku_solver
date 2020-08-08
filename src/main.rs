@@ -27,7 +27,7 @@ pub fn main() {
         vec![1,4,8,3,9,5,7,2,0]
         ];
 
-    let unsolved_sudoku = sudoku_grid::Grid::new(test);
+    let unsolved_sudoku = sudoku_grid::Grid::new(test2);
     let solved_sudoku = sudoku_grid::solve(unsolved_sudoku);
 
     let mut j = 1;
